@@ -30,7 +30,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
-        android:text="Safety First"
+        android:text="Safety Watch"
         android:textAlignment="center"
         android:textColor="#981E1E"
         android:textSize="50sp"

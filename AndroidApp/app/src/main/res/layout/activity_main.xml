@@ -29,7 +29,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-black"
-        android:text="Safety First"
+        android:text="Safety Watch"
         android:textAlignment="center"
         android:textColor="#981E1E"
         android:textSize="50sp"
