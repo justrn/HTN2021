@@ -5,32 +5,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="103dp"
-        android:layout_marginBottom="545dp"
-        android:fontFamily="@font/merriweather_bold"
-        android:text="Camera"
-        android:textColor="#981E1E"
-        android:textSize="40sp" />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--        android:layout_marginBottom="100dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="90dp"
-        android:layout_marginBottom="37dp"
-        android:fontFamily="@font/merriweather_bold"
-        android:text="Turn Off/On"
-        android:textColor="#981E1E"
-        android:textSize="20sp" />
+<!--    <Switch-->
+<!--        android:id="@+id/cameraSwitch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="128dp"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:buttonTint="#2298CF"-->
+<!--        android:checked="true"-->
+<!--        android:fontFamily="@font/merriweather_bold"-->
+<!--        android:text=" Weapon Detector"-->
+<!--        android:textColor="#981E1E"-->
+<!--        android:textSize="20sp"-->
+<!--        android:thumbTint="#A53737"-->
+<!--        android:trackTint="#704949"-->
+<!--        tools:checked="true" />-->
+
 </RelativeLayout>

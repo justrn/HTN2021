@@ -14,16 +14,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+
         button=(Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View v) {
-                openActivity2();
+            public void onClick(View view) {
+                openHomeActivity();
             }
         });
     }
-    public void openActivity2() {
-        Intent intent=new Intent(this, Activity2.class);
+    public void openHomeActivity() {
+        Intent intent= new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 }
