@@ -47,7 +47,7 @@ interface wlan0
 11. ``sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig`` then ``sudo nano /etc/dnsmasq.conf`` and add the following
 ```
 interface=wlan0
-dhcp-range=192.168.3.2,192.168.4.20,255.255.255.0,24h
+dhcp-range=192.168.3.2,192.168.3.20,255.255.255.0,24h
 domain=wlan
 address=/gw.wlan/192.168.3.1
 ```
