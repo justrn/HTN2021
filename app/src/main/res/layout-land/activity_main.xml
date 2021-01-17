@@ -11,14 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="32dp"
         android:background="#981E1E"
         android:backgroundTint="#FFFFFF"
         android:text="View Camera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,13 +27,13 @@
         android:layout_above="@+id/button"
         android:layout_alignParentStart="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
         android:text="Safety First"
         android:textAlignment="center"
         android:textColor="#981E1E"
         android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,22 +43,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/landingpage" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-medium"
         android:text="An app that watches your back"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
