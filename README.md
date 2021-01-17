@@ -1,6 +1,5 @@
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h1 style="display: inline-block">Table of Contents</h1></summary>
+# Table of Contents
   <ol>
     <li>
       <a href="#getting-started">Getting Started</a>
