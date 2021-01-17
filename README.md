@@ -82,3 +82,5 @@ cd into the directory where you have PiStream stored, and run the command below 
 ## Acknowledgements
 
 This project was created by Patrick Huynh, Justin Tran, Alejandro Gomez, and Ananya Rao for the Hack the North 2020 Hackathon.
+
+https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
